@@ -1,0 +1,20 @@
+<div class="form">
+    <div class="icon">
+      <img src="assets/icons /appicon.png" alt="">
+      <div class="pack">
+        <h1>Deposit Money</h1>
+      </div>
+    </div>
+    <div class="login-form">
+    <label for="amount">Amount</label>
+    <input type="number" id="amount" [(ngModel)]="amount" required>
+    <!-- <label for="accountType">Account Type</label>
+    <select id="accountType" [(ngModel)]="accountType">
+      <option value="ChequeAccount">ChequeAccount</option>
+      <option value="SavingsAccount">SavingsAccount</option>
+    </select> -->
+    
+    <button class="btn" (click)="onSubmit()">Deposit</button>
+    <button class="btn1" routerLink="/dashboard">Cancel</button>
+    </div>
+  </div>

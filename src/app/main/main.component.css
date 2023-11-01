@@ -1,0 +1,39 @@
+
+.top-section{
+    height: 200px;
+    width: 920px;
+    margin-bottom: 20px;
+}
+.bottom-section{
+    display: flex;
+    width: 920px;
+}
+.left{
+    width: 460px;
+    margin-right: 10px;
+}
+.left .left-top{
+    display: flex;
+    height: 16.5vh;
+    .balance{
+        width: 230px;
+        margin-right: 10px;
+    }
+    .savings{
+        width: 230px;
+        margin-left: 10px;
+    }
+}
+
+.right{
+    width: 460px;
+    background-color: white;
+    margin-left: 10px;
+    height: 54vh;
+}
+.left-bottom{
+    background-color: whites;
+    margin-top: 20px;
+    height: 34.8vh;
+}
+

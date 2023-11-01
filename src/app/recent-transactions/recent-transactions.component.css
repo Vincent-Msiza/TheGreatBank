@@ -1,0 +1,31 @@
+.recent-transactions {
+    width: 100%;
+    max-width: 500px; /* Adjust as needed */
+    margin: 10px 10px; /* Center align if the width is less than 100% */
+  }
+  
+  .recent-transactions h3 {
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size:large;
+    font-weight: 500;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    border: none;
+    padding: 10px;
+    text-align: left;
+    font-size: small;
+  }
+  
+  th {
+    background-color: transparent;
+    font-weight: 100;
+    opacity: 0.5;
+  }
+  

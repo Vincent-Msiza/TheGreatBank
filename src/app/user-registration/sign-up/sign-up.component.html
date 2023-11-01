@@ -1,0 +1,34 @@
+<div class="login-page">
+
+    <div class="form">
+      <!-- hearder -->
+      <div class="icon">
+        <img src="assets/icons /appicon.png" alt="">
+        <div class="pack">
+          <h1>Register</h1>
+          <p>Lets get you set up so you can manage your money with ease.</p>
+        </div>
+      </div>
+
+        <!-- form -->
+      <form (submit)="onSubmit(f)" #f="ngForm">
+        <div class="names">
+          <input type="text" ngModel name="firstName" placeholder="First Name" required>
+          <input type="text" ngModel name="lastName" placeholder="Last Name" required>
+        </div>
+        <div class="auth">
+          <input type="email" ngModel name="email" placeholder="Email Adress" required>
+          <input type="password" ngModel name="password" placeholder="Password" required>
+        </div>
+      <div class="contact">
+        <input type="tel" ngModel name="phone" placeholder="Phone number" required>
+        <input type="text" ngModel name="address" placeholder="Physical Adress" required>
+      </div>
+        <button class="btn" type="submit">Create account</button>
+      </form>
+        <p routerLink="/login" class="message">Already registered? <a >Login</a>
+        </p>
+        <h5><a href="#" >Back home</a></h5>
+    </div>
+  </div>
+
