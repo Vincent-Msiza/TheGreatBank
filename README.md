@@ -1,3 +1,19 @@
+<<<<<<< HEAD
+# TheGreatBank
+This project is an online banking system developed using Angular and Firebase. Users can register, log in, and navigate through a dashboard to manage their financial transactions and account details. 
+
+The application supports different types of transactions like depositing money into either a cheque or savings account, viewing account balances, and updating user profile information. The backend is powered by Firebase Realtime Database to store and manage user data securely. 
+
+The UI is designed to be user-friendly, providing a seamless experience for managing financial transactions online. The system aims to demonstrate a simplified banking process while ensuring data integrity and security.
+
+Below are some of the screenshots of the fucntions of the application:
+
+<img width="1280" alt="Screenshot 2023-11-02 at 01 09 46" src="https://github.com/Vincent-Msiza/TheGreatBank/assets/84848919/efe32b4b-0200-47f6-9d8d-511e7263e3e1">
+<img width="1280" alt="Screenshot 2023-11-02 at 01 09 24" src="https://github.com/Vincent-Msiza/TheGreatBank/assets/84848919/94dd5907-cad8-48c3-b638-b4d6172afa1d">
+<img width="1280" alt="Screenshot 2023-11-02 at 01 09 16" src="https://github.com/Vincent-Msiza/TheGreatBank/assets/84848919/2791a538-db1b-4541-9c41-35976bbe4aeb">
+<img width="1280" alt="Screenshot 2023-11-02 at 01 08 22" src="https://github.com/Vincent-Msiza/TheGreatBank/assets/84848919/589c99ea-89f7-4793-a170-afd657eb9ed5">
+=======
+
 # Dashboard
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.8.
